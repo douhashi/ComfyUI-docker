@@ -21,7 +21,8 @@ COPY ./ComfyUI/requirements.txt /app/ComfyUI/requirements.txt
 RUN pip3 install --no-cache-dir -r ComfyUI/requirements.txt
 
 # Copy ComfyUI source code
-COPY . /app
+COPY ./ComfyUI /app/ComfyUI
+COPY ./ComfyUI-Manager /app/ComfyUI/custom_nodes/ComfyUI-Manager
 
 # Expose the port used by the application
 EXPOSE 8188
