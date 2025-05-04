@@ -27,6 +27,7 @@ ENV/
 notebooks/
 
 # Local data and outputs
+ComfyUI/custom_nodes/
 ComfyUI/venv/
 ComfyUI/models/
 ComfyUI/input/
