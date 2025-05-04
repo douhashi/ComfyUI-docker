@@ -9,6 +9,7 @@ RUN apt-get update && apt-get install -y \
     python3 \
     python3-pip \
     python3-venv \
+    libopencv-dev \
     git \
     wget \
     && rm -rf /var/lib/apt/lists/*
