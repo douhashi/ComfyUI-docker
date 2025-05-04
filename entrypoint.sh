@@ -6,7 +6,7 @@ python3 -m venv /app/ComfyUI/venv
 
 # Install pytorch and xformers (CUDA 12.1)
 pip install torch==2.5.1 torchvision==0.20.1 torchaudio==2.5.1 --index-url https://download.pytorch.org/whl/cu121
-pip install xformers==0.0.22 --index-url https://download.pytorch.org/whl/cu121
+pip install xformers==0.0.23 --index-url https://download.pytorch.org/whl/cu121
 
 # Install main dependencies
 pip install -r /app/ComfyUI/requirements.txt
